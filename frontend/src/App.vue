@@ -71,16 +71,16 @@ html, body, #app {
 .header {
   height: 100%;
   width: 100%;
-  background: #282b3e;
+  background: #064468f1;
   border-radius: 6px;
   border: 0;
 }
 
 .hover1:hover {
-  background: #a3a3a3;
+  background: #006aa8f1;
 }
 
 .hover2:hover {
-  background: #b20000;
+  background: #b20000f1;
 }
 </style>
