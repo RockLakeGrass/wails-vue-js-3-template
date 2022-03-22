@@ -60,6 +60,7 @@ export default {
 </script>
 <style>
 html, body, #app {
+  font-size: 30px;
   margin: 0;
   padding: 0;
   height: 100%;
