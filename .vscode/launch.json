@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "f5anything",
+            "request": "launch",
+            "name": "Wails Dev",
+            "command": "wails dev"
+        }
+    ]
+}
