@@ -2,18 +2,18 @@
   <div class="header">
     <div style="height: 25px;width: 100%;display: flex;justify-content: right" data-wails-drag>
       <div data-wails-no-drag style="display: flex">
-        <div class="hover1" style="width: 35px;height: 25px;display: flex;justify-content: center;align-items: center;"
-             @click="miniWindowBtn">
+        <div class="MinorMax" style="width: 35px;height: 25px;display: flex;justify-content: center;align-items: center;"
+             @click="minWindow">
           <LineOutlined style="color: aliceblue;font-size: 15px"/>
         </div>
-        <div class="hover1" style="width: 35px;height: 25px;display: flex;justify-content: center;align-items: center;"
-             @click="maxWindowBtn">
+        <div class="MinorMax" style="width: 35px;height: 25px;display: flex;justify-content: center;align-items: center;"
+             @click="maxWindow">
           <RetweetOutlined v-if="maxStatus" style="color: aliceblue;font-size: 12px"/>
           <BorderOutlined v-else style="color: aliceblue;font-size: 12px"/>
         </div>
-        <div class="hover2"
+        <div class="close"
              style="width: 35px;height: 25px;display: flex;justify-content: center;align-items: center;border-radius:0 6px 0 0"
-             @click="closeBtn">
+             @click="closeWindow">
           <CloseOutlined style="color: aliceblue;font-size: 15px"/>
         </div>
       </div>
@@ -40,10 +40,10 @@ export default {
     }
   },
   methods: {
-    miniWindowBtn() {
+    minWindow() {
       window.runtime.WindowMinimise();
     },
-    maxWindowBtn() {
+    maxWindow() {
       if (this.maxStatus){
         window.runtime.WindowUnmaximise();
         this.maxStatus = false;
@@ -52,7 +52,7 @@ export default {
         this.maxStatus = true;
       }
     },
-    closeBtn() {
+    closeWindow() {
       window.runtime.Quit();
     }
   }
@@ -76,11 +76,11 @@ html, body, #app {
   border: 0;
 }
 
-.hover1:hover {
+.MinorMax:hover {
   background: #006aa8f1;
 }
 
-.hover2:hover {
+.close:hover {
   background: #b20000f1;
 }
 </style>

@@ -8,7 +8,7 @@
         <a-input id="ipt" @pressEnter="Greet"/>
       </div>
       <div style="justify-content: center;display: flex">
-        <a-button @click="Greet">提交</a-button>
+        <a-button @click="Submit">提交</a-button>
       </div>
     </div>
   </div>
@@ -25,8 +25,8 @@ export default {
     }
   },
   methods: {
-    Greet() {
-      window.go.main.App.Greet(document.getElementById("ipt").value).then(res => {
+    Submit() {
+      window.go.main.App.GetMsg(document.getElementById("ipt").value).then(res => {
         this.title = res;
       });
     },
