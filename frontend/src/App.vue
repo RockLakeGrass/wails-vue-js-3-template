@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div style="height: 25px;width: 100%;display: flex;justify-content: right" data-wails-drag>
-      <div data-wails-no-drag style="display: flex">
+      <div v-if="platfrom != 'darwin'" data-wails-no-drag style="display: flex">
         <div class="MinorMax" style="width: 35px;height: 25px;display: flex;justify-content: center;align-items: center;"
              @click="minWindow">
           <LineOutlined style="color: aliceblue;font-size: 15px"/>
@@ -37,7 +37,13 @@ export default {
   data() {
     return{
       maxStatus: false,
+      platfrom: "windows",
     }
+  },
+  mounted() {
+    window.go.main.App.PullPlatform().then(res => {
+      this.platfrom = res;
+    });
   },
   methods: {
     minWindow() {

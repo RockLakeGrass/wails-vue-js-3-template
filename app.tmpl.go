@@ -3,6 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
+
+	"runtime"
 )
 
 // App struct
@@ -31,7 +33,11 @@ func (a *App) shutdown(ctx context.Context) {
 	// Perform your teardown here
 }
 
-// Greet returns a greeting for the given name
+// GetMsg returns a greeting for the given name
 func (a *App) GetMsg(name string) string {
 	return fmt.Sprintf("Hello %s!", name)
+}
+
+func (a *App) PullPlatform() string {
+	return runtime.GOOS
 }
