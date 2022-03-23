@@ -4,6 +4,7 @@
   "assetdir": "frontend/dist",
   "frontend:install": "cnpm install",
   "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run build:watch",
   "author": {
     "name": "{{.AuthorName}}",
     "email": "{{.AuthorEmail}}"
