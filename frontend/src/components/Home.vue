@@ -21,7 +21,7 @@ export default {
   components: {},
   data() {
     return{
-      title: "Hello World",
+      title: "Hello World!",
     }
   },
   methods: {
