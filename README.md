@@ -1,6 +1,6 @@
 # wails-vue-js-3-template
 
-##### wails 应用模板
+> wails 应用模板
 ## 预览
 
 ![DesignSketch](./DesignSketch.png)
