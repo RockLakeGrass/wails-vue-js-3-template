@@ -2,6 +2,7 @@
 
 ### wails 应用模板
 ## 预览
+
 ![DesignSketch] (./DesignSketch.png)
 
 ## 新建项目
