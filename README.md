@@ -23,5 +23,5 @@
 * Vue: 使用 Vue 3.x 版本，具体使用方式请参考[Vue3.x 官方文档](https://v3.vuejs.org/guide/introduction.html)
 * Vue-Router: 使用 Vue-Router 4.x 版本，具体使用方式请参考[Vue-Router 官方文档](https://next.router.vuejs.org/)
 * Ant Design Vue: 使用antd组件库 `2.2.8` 版本，具体使用方式请参考[Ant Design Vue 官方文档](https://2x.antdv.com/components/overview-cn/)
-* https://gitee.com/zero_clown/wails-vue3-template
+* [Zero的Wails Vue3模板](https://gitee.com/zero_clown/wails-vue3-template)
 * 然后您就可以参考 Wails [官方文档](https://wails.top/zh-Hans/docs/introduction)开始开发您的应用啦!
