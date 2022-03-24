@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div style="height: 25px;width: 100%;display: flex;justify-content: right" data-wails-drag>
-      <div v-if="platfrom != 'darwin'" data-wails-no-drag style="display: flex">
+      <div v-if="platfrom != 'darwin'" data-wails-no-drag style="display: flex" :style="getPlatfrom() == 'linux' ? 'margin-left:calc(100% - 105px);' : ''">
         <div class="MinorMax" style="width: 35px;height: 25px;display: flex;justify-content: center;align-items: center;"
              @click="minWindow">
           <LineOutlined style="color: aliceblue;font-size: 15px"/>
@@ -46,6 +46,9 @@ export default {
     });
   },
   methods: {
+    getPlatfrom() {
+      return this.platfrom;
+    },
     minWindow() {
       window.runtime.WindowMinimise();
     },
