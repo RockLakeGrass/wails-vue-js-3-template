@@ -1,16 +1,15 @@
-<h3>
+<h1 align="center">
     Wails-Vuejs3.x-template
-</h3>
+</h1>
+<p align="center">
+  基于Vue3.x的Wails模板
+</p>
 <p align="center">
     <a herf="./LICENSE">
         <img alt="license" src = "https://img.shields.io/badge/license-GPL--3.0-blue"/>
     </a>
     <img alt="platform" src = "https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen">
 </p>
-<p align="center">
-  基于Vue3.x的Wails模板
-</p>
-
 ## 预览
 
 ![DesignSketch](./DesignSketch.png)
