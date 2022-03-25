@@ -14,7 +14,7 @@
 * vue-cli 并且包含 vue-cli-service
 * git
 
-### 新建项目
+### 创建
 > wails init -n [你的应用名称] -t https://gitee.com/wanghanming/wails-vue-js-3-template.git
 
 ## 参考文档
