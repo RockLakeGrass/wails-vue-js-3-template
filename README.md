@@ -5,7 +5,7 @@
   基于Vue3.x的Wails模板
 </p>
 <p align="center">
-    <a herf="./LICENSE">
+    <a herf="./LICENSE" >
         <img alt="license" src = "https://img.shields.io/badge/license-GPL--3.0-blue"/>
     </a>
     <img alt="platform" src = "https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen">
