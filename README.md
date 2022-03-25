@@ -34,7 +34,7 @@ wails init -n [Your Appname] -t https://gitee.com/rocklakegrass/wails-vue-js-3-t
 ```
 
 ### VScode profile
-This template comes with a `VSCode` configuration file and requires support from the `f5anything'plug-in.
+This template comes with a `VSCode` configuration file and requires support from the `f5anything` plug-in.
 The profile is discarded `dlv` for compatibility with `ARM64` and `x86 32bit`.
 
 If you need your own profile, you can configure `.vscode/launch.json` yourself
@@ -46,4 +46,4 @@ The front-end part uses `Vue` `Vue-cli` and `Ant Design Vue`:
 * Vue-cli: Use Vue-cli 3.x version, please refer to[Vue Cli 3.x Documents](https://cli.vuejs.org/zh/guide/installation.html)
 * Ant Design Vue: Use the antd component library, please refer to[Ant Design Vue Documents](https://www.antdv.com/docs/vue/introduce-cn/)
 * [Wails Vue3 template for Zero](https://gitee.com/zero_clown/wails-vue3-template)
-Then you can refer to the official [Wails document](https://wails.top) to start developing your application🤞.
+Then you can refer to the official [Wails document](https://wails.top) to start developing your application.
