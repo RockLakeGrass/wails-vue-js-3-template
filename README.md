@@ -1,9 +1,13 @@
 # wails-vue-js-3-template
 
-#
-<h3 align="center">
+<p align="center">
+    <a herf="./LICENSE">
+        <img alt="license" src = "https://img.shields.io/badge/license-GPL--3.0-blue"/>
+    </a>
+</p>
+<p align="center">
   基于Vue3.x的Wails模板
-</h3>
+</p>
 ## 预览
 
 ![DesignSketch](./DesignSketch.png)
