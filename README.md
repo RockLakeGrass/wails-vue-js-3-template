@@ -1,9 +1,9 @@
 # wails-vue-js-3-template
 
 #
-<h1 align="center">
+<h3 align="center">
   基于Vue3.x的Wails模板
-</h1>
+</h3>
 ## 预览
 
 ![DesignSketch](./DesignSketch.png)
