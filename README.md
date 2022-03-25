@@ -17,7 +17,7 @@
 ### 新建项目
 > wails init -n [你的应用名称] -t https://gitee.com/wanghanming/wails-vue-js-3-template.git
 
-## 前端部分参考文档
+## 参考文档
 前端部分使用了 Vue、Vue-cli和Ant Design Vue
 
 * Vue: 使用 Vue 3.x 版本，具体使用方式请参考[Vue3.x 官方文档](https://v3.vuejs.org/guide/introduction.html)
