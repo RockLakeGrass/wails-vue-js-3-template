@@ -26,7 +26,7 @@
 
 ### 创建
 ```
-wails init -n [你的应用名称] -t https://gitee.com/wanghanming/wails-vue-js-3-template.git
+wails init -n [你的应用名称] -t https://gitee.com/rocklakegrass/wails-vue-js-3-template.git
 ```
 
 ### VScode 配置文件
