@@ -49,6 +49,5 @@ The front-end part uses `Vue` `Vue-cli` and `Ant Design Vue`:
 * Vue: Use vue3.x version, please refer to the official [Vue3.x Documents](https://v3.vuejs.org/guide/introduction.html) for specific usage.
 * Vue-cli: Use Vue-cli 3.x version, please refer to[Vue Cli 3.x Documents](https://cli.vuejs.org/zh/guide/installation.html).
 * Ant Design Vue: Use the antd component library, please refer to[Ant Design Vue Documents](https://www.antdv.com/docs/vue/introduce-cn/).
-* [Wails Vue3 template for Zero](https://gitee.com/zero_clown/wails-vue3-template)
 
 Then you can refer to the official [Wails document](https://wails.top) to start developing your application.
