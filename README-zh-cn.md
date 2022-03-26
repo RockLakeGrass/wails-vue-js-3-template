@@ -39,7 +39,7 @@ wails init -n [你的应用名称] -t https://gitee.com/rocklakegrass/wails-vue-
 
 ### VScode 配置文件
 此模板自带`VSCode`配置文件，需要`f5anything`插件的支持。
-自带的位置文件为了兼容`ARM64`与`x86 32bit`弃用`dlv`，因为`dlv`不支持这些架构
+自带的配置文件为了兼容`ARM64`与`x86 32bit`弃用`dlv`，因为`dlv`不支持这些架构
 
 如果需要自己的配置文件，可以自行配置 `.vscode/launch.json`
 
