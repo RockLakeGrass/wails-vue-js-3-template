@@ -32,6 +32,10 @@
 ```
 wails init -n [你的应用名称] -t https://github.com/RockLakeGrass/wails-vue-js-3-template.git
 ```
+如果您在中国境内，可以使用`gitee`创建您的项目
+```
+wails init -n [你的应用名称] -t https://gitee.com/rocklakegrass/wails-vue-js-3-template.git
+```
 
 ### VScode 配置文件
 此模板自带`VSCode`配置文件，需要`f5anything`插件的支持。

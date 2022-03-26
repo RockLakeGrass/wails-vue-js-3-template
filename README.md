@@ -32,6 +32,10 @@
 ```
 wails init -n [Your Appname] -t https://github.com/RockLakeGrass/wails-vue-js-3-template.git
 ```
+If you are in China, you can use `gitee` to create your project
+```
+wails init -n [Your Appname] -t https://gitee.com/rocklakegrass/wails-vue-js-3-template.git
+```
 
 ### VScode profile
 This template comes with a `VSCode` configuration file and requires support from the `f5anything` plug-in.
