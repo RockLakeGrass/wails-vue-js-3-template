@@ -30,7 +30,7 @@
 
 ### New Project
 ```
-wails init -n [Your Appname] -t https://gitee.com/rocklakegrass/wails-vue-js-3-template.git
+wails init -n [Your Appname] -t https://github.com/RockLakeGrass/wails-vue-js-3-template.git
 ```
 
 ### VScode profile
