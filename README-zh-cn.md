@@ -6,14 +6,14 @@
 </p>
 <p align="center">
     <a href="./LICENSE" >
-        <img alt="license" src="https://img.shields.io/badge/license-GPL--3.0-blue"/>
+        <img alt="license" src="https://img.shields.io/badge/license-MIT-blue"/>
     </a>
     <img alt="platform" src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen">
 </p>
 
 ## 国际化
 
-[English](README.md) | [简体中文](./README-zh-cn.md)
+简体中文 | [English](README.md)
 
 ## 预览
 
@@ -22,7 +22,7 @@
 ## 新建项目
 
 ### 先决条件
-* golang 和 wails
+* golang 与 wails
 * vscode 与 插件 f5anything
 * nodejs 与 npm
 * vue-cli 并且包含 vue-cli-service
