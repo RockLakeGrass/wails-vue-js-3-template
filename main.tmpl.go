@@ -16,10 +16,6 @@ import (
 //go:embed frontend/dist
 var assets embed.FS
 
-func GetFrameless() bool {
-	return runtime.GOOS != "darwin"
-}
-
 func main() {
 	// Create an instance of the app structure
 	app := NewApp()
@@ -33,7 +29,7 @@ func main() {
 		MinHeight:         570,
 		DisableResize:     false,
 		Fullscreen:        false,
-		Frameless:         GetFrameless(),
+		Frameless:         runtime.GOOS != "darwin",
 		StartHidden:       false,
 		HideWindowOnClose: false,
 		RGBA:              &options.RGBA{255, 255, 255, 255},
@@ -51,8 +47,8 @@ func main() {
 		},
 		// Windows platform specific options
 		Windows: &windows.Options{
-			WebviewIsTransparent: false,
-			WindowIsTranslucent:  false,
+			WebviewIsTransparent: true,
+			WindowIsTranslucent:  true,
 			DisableWindowIcon:    true,
 		},
 		Mac: &mac.Options{
@@ -64,8 +60,8 @@ func main() {
 				UseToolbar:                 false,
 				HideToolbarSeparator:       true,
 			},
-			WebviewIsTransparent: false,
-			WindowIsTranslucent:  false,
+			WebviewIsTransparent: true,
+			WindowIsTranslucent:  true,
 		},
 	})
 
